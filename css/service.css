@@ -1,0 +1,184 @@
+/**********************
+	SERVICE
+**********************/
+
+.service {
+	margin-bottom: 60px;
+}
+
+.service-text {
+	font-family: avenirregular;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 60px;
+	line-height: 30px;
+}
+
+.service-pack {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.service-section {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+	position: relative;
+	height: 200px;
+}
+
+.service-item {
+	box-shadow: 2px 2px 5px #888888;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* add */
+    justify-content: center; /* add to align horizontal */
+    align-items: center; /* add to align vertical */
+    font-family: avenirregular;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.service-icon {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 75px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.package-cta {
+	padding: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.package-btn {
+	padding: 10px 40px;
+}
+
+.package-btn, .instructor-btn{
+	font-family: nexalight;
+	font-size: 16px;
+	color: white;
+	background-color: #366c99;
+}
+
+/**********************
+	INSTRUCTOR
+**********************/
+
+.instructor {
+	margin-top: 20px;
+	background-color : #fafafa;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.instructor-section {
+	padding: 50px 0px;
+}
+
+.instructor-header {
+	font-family: nexabold;
+	font-size: 30px;
+	padding-left: 15%;
+	margin-top: 40px;
+}
+
+.instructor-line {
+    text-align: center;
+    width: 150px;
+}
+
+.instructor-text {
+	text-align: center;
+	font-family: avenirbold;
+	font-size: 25px;
+	line-height: 3em;
+}
+
+.instructor-highlights {
+	font-family: avenirregular;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.instructor-highlight {
+	margin-left: 10px;
+}
+
+.instructor-btn {
+	margin-top: 15px;
+	padding: 10px 40px;
+}
+
+.instructor-img {
+    background-image: url('../img/jayson.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.contact-info{
+	padding: 20px;
+	padding-top: 50px;
+	padding-left: 10%;
+}
+
+.contact-header {
+	font-family: nexabold;
+	font-size: 30px;
+	/*padding-left: 15%;*/
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/*.contact {
+	margin-bottom: 80px;
+}*/
+
+.contact-item {
+	margin-bottom: 10px;
+	font-family: avenirregular;
+	font-size: 18px;
+	padding-left: 5%;
+	display: flex;
+}
+
+.contact-item a {
+	color: black;
+}
+
+.contact-item i {
+	margin-right: 12px;
+}
+
+.contact-icon {
+	width: 35px;
+}
+
+.contact-subinfo {
+	margin-left: 5px;
+}
+
+.business-hours {
+	padding: 0px 20px;
+	padding-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+
+#map {
+	margin-top: 70px;
+	height: 500px;
+}

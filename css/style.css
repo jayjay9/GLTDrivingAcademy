@@ -1,0 +1,253 @@
+@font-face {
+    font-family: futuramedium;
+    src: url(../fonts/futura-condensed-medium.otf);
+    
+}
+
+@font-face {
+    font-family: montlight;
+    src: url(../fonts/mont-light.otf);
+    
+}
+
+@font-face {
+    font-family: avenirregular;
+    src: url(../fonts/avenir-next-regular.otf);
+}
+
+@font-face {
+    font-family: nexabold;
+    src: url(../fonts/nexa-bold.otf);
+}
+
+@font-face {
+    font-family: nexalight;
+    src: url(../fonts/nexa-light.otf);
+}
+
+@font-face {
+    font-family: arialrounded;
+    src: url(../fonts/arial-rounded.ttf);
+}
+
+@font-face {
+    font-family: avenirbold;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+
+/**********************
+ 	NAVIGATION
+***********************/
+
+.navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	background-color: white;
+}
+
+.logo {
+	font-family: futuramedium;
+	color: #1d2626;
+}
+
+.logo > a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo-lg {
+	font-size: 23px;
+	padding-left: 50px;
+	width: 400px;
+}
+
+.logo-xs {
+	padding-left: 25px;
+}
+
+.logo-sm {
+	font-size: 23px;
+    padding-left: 20px;
+    width: 370px;
+}
+
+.logo-xs > a > .logo-title{
+	font-size: 20px;
+}
+
+.logo-img {
+	height: 60px;
+	width: 50px;
+	background-image: url('../img/logo2.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo-title {
+	margin-left: 10px;
+}
+
+.nav-head {
+	border-bottom: 0.5px solid;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+.nav-head div{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.nav-lg {
+	padding-right: 50px;
+	text-align: right;
+    width: calc(95% - 400px);
+}
+
+.nav-lg a {
+	font-family: nexabold;
+	font-size: 15px;
+	color: #606060;
+	margin-left: 50px;
+	text-decoration: none;
+}
+
+.nav-lg > a:hover {
+	color: #366c99;
+}
+
+.nav-sm {
+    text-align: right;
+    width: calc(95% - 370px);
+}
+
+.nav-sm a {
+	color: #606060;
+    font-family: nexabold;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-xs {
+	float: right;
+    margin-top: 7px;
+    padding-right: 25px;
+}
+
+.nav-xs-head {
+	display: none;
+}
+
+.nav-xs-head a {
+	font-family: nexabold;
+	font-size: 16px;
+	color: #606060;
+	text-decoration: none;
+}
+
+.nav-xs-item {
+	padding: 20px;
+	text-align: center;
+	border-bottom: solid 0.5px;
+	background-color: #fafafa;
+}
+
+.nav-xs-item:hover {
+	color: white;
+	background-color: #366c99;
+}
+
+.nav-active {
+	border-bottom: solid #366c99;
+	width: 100px;
+}
+
+/**********************
+	HEADER
+**********************/
+
+.header {
+	position: relative;
+    width: 100%;
+  	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/home-header.png) no-repeat center; 
+  	background-size: cover;
+  	height: 500px;
+}
+
+.header-center{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* add */
+    justify-content: center; /* add to align horizontal */
+    align-items: center; /* add to align vertical */
+    margin-top: 80px;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+	font-family: futuramedium;
+	font-size: 50px;
+}
+
+.header-subtitle {
+	font-family: montlight;
+	font-size: 25px;
+	display: block;
+}
+
+/**********************
+	SECTION
+**********************/
+
+.section {
+	padding-top: 80px;
+}
+
+.section-header {
+	font-family: nexabold;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.section-line {
+	border-top: solid #366c99;
+}
+
+.service-line {
+	margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+/**********************
+	FOOTER
+**********************/
+
+.footer {
+	padding: 15px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: avenirregular;
+	font-size: 10px;
+}
+
+.footer-logo {
+	background: url(../img/jllogo.png) no-repeat center; 
+  	background-size: contain;
+  	height: 35px;
+    margin: auto;
+}

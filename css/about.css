@@ -1,0 +1,139 @@
+.header {
+	position: relative;
+    width: 100%;
+  	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/pexels-photo-213476.jpeg) no-repeat center; 
+  	background-size: cover;
+  	height: 400px;
+}
+
+/**********************
+	PACKAGE
+**********************/
+
+.about {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.about-text {
+	font-family: avenirregular;
+	font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+	margin-bottom: 60px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.instructor {
+	box-shadow: 2px 2px 5px #888888;
+    font-family: avenirregular;
+	font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.instructor-photo {
+	background-image: url('../img/instructor.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+    margin-top: -150px;
+}
+
+.instructor-name {
+	font-family: avenirbold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.instructor-position {
+	font-family: avenirregular;
+	font-size: 16px;
+	font-style: italic;
+	color: #606060;
+	text-align: center;
+}
+
+.instructor-container {
+	padding: 5%;
+}
+
+.instructor-header {
+	font-family: nexabold;
+	font-size: 15px;
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
+
+.instructor-line {
+	border-top: solid #366c99;
+    width: 100px;
+}
+
+.instruction-training {
+	margin-left: 10%;
+}
+
+.instruction-training > div {
+	margin-top: 20px;
+}
+
+.instructor-subtext {
+	font-family: avenirregular;
+	font-size: 12spx;
+	font-style: italic;
+	color: #606060;
+}
+
+.contact-info{
+	padding: 20px;
+	padding-top: 50px;
+	padding-left: 10%;
+}
+
+.contact-header {
+	font-family: nexabold;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.contact-line {
+	border-top: solid #366c99;
+    width: 100px;
+}
+
+.contact-item {
+	margin-bottom: 10px;
+	font-family: avenirregular;
+	font-size: 18px;
+	padding-left: 5%;
+	display: flex;
+}
+
+.contact-item a {
+	color: black;
+}
+
+.contact-item i {
+	margin-right: 12px;
+}
+
+.business-hours {
+	padding: 0px 20px;
+	padding-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+
+.contact-icon {
+	width: 35px;
+}
+
+.contact-subinfo {
+	margin-left: 5px;
+}

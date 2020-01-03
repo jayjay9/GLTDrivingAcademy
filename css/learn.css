@@ -1,0 +1,45 @@
+.header {
+	position: relative;
+    width: 100%;
+  	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/books-1163695_1280.jpg) no-repeat center; 
+  	background-size: cover;
+  	height: 400px;
+}
+
+/**********************
+	LEARN
+**********************/
+
+.learn {
+	padding-left: 8%;
+	padding-right: 8%;
+	margin-bottom: 60px;
+}
+
+.learn-text {
+	font-family: avenirregular;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 60px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.learn-item {
+	box-shadow: 2px 2px 5px #888888;
+    font-family: avenirregular;
+	font-size: 18px;
+	text-align: center;
+    margin-bottom: 25px;
+}
+
+.learn-img {
+	width: 100%;
+	background-size: cover;
+  	height: 200px;
+}
+
+.learn-item-text {
+	color: black;
+    padding: 30px 22px;
+}
